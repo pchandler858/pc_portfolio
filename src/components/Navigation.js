@@ -1,16 +1,21 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 function Navigation() {
   return (
     <nav className="flex justify-end items-center py-3 bg-transparent font-semibold">
       <ul className="flex">
         <li className="nav-item">
-          <a
+          <Link
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
             className="nav-link px-4 text-black hover:text-blue-600"
-            href="#about"
           >
             ABOUT ME
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
           <a
