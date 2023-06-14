@@ -38,13 +38,13 @@ function About() {
                 experience with enthusiasm and a desire to make the most of
                 life.
               </p>
-              <span className="flex mt-8">
+              {/* <span className="flex mt-8">
                 <a target="_blank" rel="noreferrer" href={resumePDF}>
                   <button className="btn btn-blue px-4 py-2">
                     View Resume
                   </button>
                 </a>
-              </span>
+              </span> */}
             </div>
           </div>
         </div>

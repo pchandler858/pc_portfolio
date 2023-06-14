@@ -6,7 +6,7 @@ import choreDoorImage from "../assets/chore-door.png";
 import movieLookupImage from "../assets/movie-lookup.png";
 import devDiveImage from "../assets/dev-dive.png";
 
-function Portfolio() {
+function Projects() {
   return (
     <section id="projects">
       <div className="container mx-auto">
@@ -319,4 +319,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default Projects;
