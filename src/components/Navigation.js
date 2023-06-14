@@ -8,11 +8,11 @@ function Navigation({ currentPage, handlePageChange }) {
         <li className="nav-item">
           <Link
             activeClass="text-slate-500 underline"
-            to="about"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration={800}
+            // to="about"
+            // spy={true}
+            // smooth={true}
+            // offset={0}
+            // duration={800}
             onClick={() => handlePageChange("About")}
             className={`nav-link px-4  hover:text-slate-500 hover:cursor-pointer ${
               currentPage === "About"
@@ -26,11 +26,11 @@ function Navigation({ currentPage, handlePageChange }) {
         <li className="nav-item">
           <Link
             activeClass="text-slate-500 underline"
-            to="projects"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration={800}
+            // to="projects"
+            // spy={true}
+            // smooth={true}
+            // offset={0}
+            // duration={800}
             onClick={() => handlePageChange("Projects")}
             className={`nav-link px-4 hover:text-slate-500 hover:cursor-pointer ${
               currentPage === "Projects"
@@ -44,11 +44,11 @@ function Navigation({ currentPage, handlePageChange }) {
         <li className="nav-item">
           <Link
             activeClass="text-slate-500 underline"
-            to="contact"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration={800}
+            // to="contact"
+            // spy={true}
+            // smooth={true}
+            // offset={0}
+            // duration={800}
             onClick={() => handlePageChange("Contact")}
             className={`nav-link px-4  hover:text-slate-500 hover:cursor-pointer ${
               currentPage === "Contact"
@@ -62,11 +62,11 @@ function Navigation({ currentPage, handlePageChange }) {
         <li className="nav-item">
           <Link
             activeClass="text-slate-500 underline"
-            to="resume"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration={800}
+            // to="resume"
+            // spy={true}
+            // smooth={true}
+            // offset={0}
+            // duration={800}
             onClick={() => handlePageChange("Resume")}
             className={`nav-link px-4  hover:text-slate-500 hover:cursor-pointer ${
               currentPage === "Resume"
