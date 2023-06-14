@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-redux/static/css/main.d81c7158.css",
-    "main.js": "/portfolio-redux/static/js/main.3b38e5e8.js",
+    "main.js": "/portfolio-redux/static/js/main.4724487e.js",
     "static/js/787.daf0f6b4.chunk.js": "/portfolio-redux/static/js/787.daf0f6b4.chunk.js",
     "static/media/TACOD.png": "/portfolio-redux/static/media/TACOD.fa94ffb961268cff121c.png",
     "static/media/concert-compass.png": "/portfolio-redux/static/media/concert-compass.4d12baad38c412aaf444.png",
@@ -13,11 +13,11 @@
     "static/media/chore-door.png": "/portfolio-redux/static/media/chore-door.a14a5f9ba53b2c113c41.png",
     "index.html": "/portfolio-redux/index.html",
     "main.d81c7158.css.map": "/portfolio-redux/static/css/main.d81c7158.css.map",
-    "main.3b38e5e8.js.map": "/portfolio-redux/static/js/main.3b38e5e8.js.map",
+    "main.4724487e.js.map": "/portfolio-redux/static/js/main.4724487e.js.map",
     "787.daf0f6b4.chunk.js.map": "/portfolio-redux/static/js/787.daf0f6b4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d81c7158.css",
-    "static/js/main.3b38e5e8.js"
+    "static/js/main.4724487e.js"
   ]
 }
