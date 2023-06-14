@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 const Hero = () => {
   return (
@@ -13,13 +14,11 @@ const Hero = () => {
           <br />
           I'm the Developer you've been looking for.
         </h1>
-        <a href="#about">
-          <button className="btn btn-white">
-            <span className="gradient-text" id="btn-white">
-              Learn Why
-            </span>
-          </button>
-        </a>
+        <Link to="about" smooth={true} duration={500} className="btn btn-white">
+          <span className="gradient-text" id="btn-white">
+            Learn Why
+          </span>
+        </Link>
       </div>
     </section>
   );

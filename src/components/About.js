@@ -1,9 +1,10 @@
 import React from "react";
 import profileImage from "../assets/profile.png";
+import resumePDF from "../assets/resume.pdf";
 
 function About() {
   return (
-    <section id="about">
+    <section id="about" className="">
       <div className="container mx-auto">
         <h2 className="section-title">About me</h2>
         <div className="flex flex-wrap">
@@ -38,7 +39,7 @@ function About() {
                 life.
               </p>
               <span className="flex mt-8">
-                <a target="_blank" rel="noreferrer" href="assets/resume.pdf">
+                <a target="_blank" rel="noreferrer" href={resumePDF}>
                   <button className="btn btn-blue px-4 py-2">
                     View Resume
                   </button>
