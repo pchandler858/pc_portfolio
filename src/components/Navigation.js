@@ -1,9 +1,11 @@
+import { identifier } from "@babel/types";
 import React from "react";
 import { Link } from "react-scroll";
 
 function Navigation() {
   return (
     <nav className="flex justify-end items-center py-3 bg-transparent font-semibold">
+      <div id="top"></div>
       <ul className="flex">
         <li className="nav-item">
           <Link
@@ -18,12 +20,16 @@ function Navigation() {
           </Link>
         </li>
         <li className="nav-item">
-          <a
+          <Link
             className="nav-link px-4 text-black hover:text-blue-600"
-            href="#projects"
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
           >
             PROJECTS
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
           <a
