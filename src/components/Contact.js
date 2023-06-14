@@ -50,7 +50,7 @@ function Contact() {
   return (
     <section id="contact" className="about">
       <div className="w-full px-4">
-        <h2 className="section-title">GET IN TOUCH</h2>
+        <h2 className="section-title mb-10">GET IN TOUCH</h2>
         <p className="pb-10 px-10 text-left ">
           As a highly skilled and motivated web developer, I am actively seeking
           new employment opportunities where I can utilize my expertise to

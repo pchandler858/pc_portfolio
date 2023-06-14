@@ -6,7 +6,7 @@ function About() {
   return (
     <section id="about" className="">
       <div className="container mx-auto">
-        <h2 className="section-title">About me</h2>
+        <h2 className="section-title mb-10">About me</h2>
         <div className="flex flex-col items-center">
           <div className="">
             <div>
