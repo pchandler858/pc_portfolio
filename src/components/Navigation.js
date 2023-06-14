@@ -14,14 +14,14 @@ function Navigation() {
             smooth={true}
             offset={0}
             duration={500}
-            className="nav-link px-4 text-black hover:text-blue-600"
+            className="nav-link px-4 text-black hover:text-blue-600 hover:cursor-pointer"
           >
             ABOUT ME
           </Link>
         </li>
         <li className="nav-item">
           <Link
-            className="nav-link px-4 text-black hover:text-blue-600"
+            className="nav-link px-4 text-black hover:text-blue-600 hover:cursor-pointer"
             to="projects"
             spy={true}
             smooth={true}
@@ -33,7 +33,7 @@ function Navigation() {
         </li>
         <li className="nav-item">
           <a
-            className="nav-link px-4 text-black hover:text-blue-600"
+            className="nav-link px-4 text-black hover:text-blue-600 hover:cursor-pointer"
             href="#contact"
           >
             CONTACT
@@ -41,7 +41,7 @@ function Navigation() {
         </li>
         <li className="nav-item">
           <a
-            className="nav-link px-4 text-black hover:text-blue-600"
+            className="nav-link px-4 text-black hover:text-blue-600 hover:cursor-pointer"
             href="#resume"
           >
             RESUME
