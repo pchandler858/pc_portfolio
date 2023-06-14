@@ -14,8 +14,10 @@ function Navigation({ currentPage, handlePageChange }) {
             offset={0}
             duration={800}
             onClick={() => handlePageChange("About")}
-            className={`nav-link px-4 text-slate-900 hover:text-slate-500 hover:cursor-pointer ${
-              currentPage === "About" ? "text-slate-500 underline" : ""
+            className={`nav-link px-4  hover:text-slate-500 hover:cursor-pointer ${
+              currentPage === "About"
+                ? "text-slate-500 underline"
+                : "text-slate-900"
             }`}
           >
             ABOUT ME
@@ -30,8 +32,10 @@ function Navigation({ currentPage, handlePageChange }) {
             offset={0}
             duration={800}
             onClick={() => handlePageChange("Projects")}
-            className={`nav-link px-4 text-slate-900 hover:text-slate-500 hover:cursor-pointer ${
-              currentPage === "Projects" ? "text-slate-500 underline" : ""
+            className={`nav-link px-4 hover:text-slate-500 hover:cursor-pointer ${
+              currentPage === "Projects"
+                ? "text-slate-500 underline"
+                : "text-slate-900"
             }`}
           >
             PORTFOLIO
@@ -46,8 +50,10 @@ function Navigation({ currentPage, handlePageChange }) {
             offset={0}
             duration={800}
             onClick={() => handlePageChange("Contact")}
-            className={`nav-link px-4 text-slate-900 hover:text-slate-500 hover:cursor-pointer ${
-              currentPage === "Contact" ? "text-slate-500 underline" : ""
+            className={`nav-link px-4  hover:text-slate-500 hover:cursor-pointer ${
+              currentPage === "Contact"
+                ? "text-slate-500 underline"
+                : "text-slate-900"
             }`}
           >
             CONTACT
@@ -62,8 +68,10 @@ function Navigation({ currentPage, handlePageChange }) {
             offset={0}
             duration={800}
             onClick={() => handlePageChange("Resume")}
-            className={`nav-link px-4 text-slate-900 hover:text-slate-500 hover:cursor-pointer ${
-              currentPage === "Resume" ? "text-slate-500 underline" : ""
+            className={`nav-link px-4  hover:text-slate-500 hover:cursor-pointer ${
+              currentPage === "Resume"
+                ? "text-slate-500 underline"
+                : "text-slate-900"
             }`}
           >
             RESUME
