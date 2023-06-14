@@ -102,9 +102,14 @@ function Contact() {
                 className="h-32 mt-1 block w-full rounded-sm border border-slate-500 shadow-sm focus:border-blue-500 focus:ring-blue-500"
               />
               {errors.message && <p className="error">{errors.message}</p>}
-              {formSubmitted && <p className="pt-5">Thank you! Your message has been sent!</p>}
+              {formSubmitted && (
+                <p className="pt-5">Thank you! Your message has been sent!</p>
+              )}
             </label>
-            <button type="submit" className="btn btn-blue px-4 py-2">
+            <button
+              type="submit"
+              className="btn btn-white gradient-text hover:text-slate-100 px-4 py-1"
+            >
               Submit
             </button>
           </form>
