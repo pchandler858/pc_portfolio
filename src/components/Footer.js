@@ -5,9 +5,9 @@ const Footer = () => {
   return (
     <footer className=" pt-10 text-center">
       <div className="">
-        <Link to="top" spy={true} smooth={true} offset={0} duration={1000}>
+        {/* <Link to="top" spy={true} smooth={true} offset={0} duration={1000}>
           <i className="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-        </Link>
+        </Link> */}
         <div className="social-links mb-4">
           <a
             rel="noreferrer"
