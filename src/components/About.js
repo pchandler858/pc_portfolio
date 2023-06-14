@@ -1,6 +1,6 @@
 import React from "react";
 import profileImage from "../assets/profile.png";
-import resumePDF from "../assets/resume.pdf";
+// import resumePDF from "../assets/resume.pdf";
 
 function About() {
   return (
