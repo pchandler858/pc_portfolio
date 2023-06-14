@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/pchandler858/portfolio-redux/static/css/main.d81c7158.css",
-    "main.js": "/pchandler858/portfolio-redux/static/js/main.2c88ca10.js",
-    "static/js/787.daf0f6b4.chunk.js": "/pchandler858/portfolio-redux/static/js/787.daf0f6b4.chunk.js",
-    "static/media/TACOD.png": "/pchandler858/portfolio-redux/static/media/TACOD.fa94ffb961268cff121c.png",
-    "static/media/concert-compass.png": "/pchandler858/portfolio-redux/static/media/concert-compass.4d12baad38c412aaf444.png",
-    "static/media/robo-friends.png": "/pchandler858/portfolio-redux/static/media/robo-friends.81197a49274f26eeda74.png",
-    "static/media/profile.png": "/pchandler858/portfolio-redux/static/media/profile.60ee12dab43d9fafa7ef.png",
-    "static/media/movie-lookup.png": "/pchandler858/portfolio-redux/static/media/movie-lookup.7291ab8b64962d9cc9a8.png",
-    "static/media/dev-dive.png": "/pchandler858/portfolio-redux/static/media/dev-dive.5774d1782892f82931d6.png",
-    "static/media/resume.pdf": "/pchandler858/portfolio-redux/static/media/resume.4a81e55c2c7248e7b4bf.pdf",
-    "static/media/chore-door.png": "/pchandler858/portfolio-redux/static/media/chore-door.a14a5f9ba53b2c113c41.png",
-    "index.html": "/pchandler858/portfolio-redux/index.html",
-    "main.d81c7158.css.map": "/pchandler858/portfolio-redux/static/css/main.d81c7158.css.map",
-    "main.2c88ca10.js.map": "/pchandler858/portfolio-redux/static/js/main.2c88ca10.js.map",
-    "787.daf0f6b4.chunk.js.map": "/pchandler858/portfolio-redux/static/js/787.daf0f6b4.chunk.js.map"
+    "main.css": "/portfolio-redux/static/css/main.d81c7158.css",
+    "main.js": "/portfolio-redux/static/js/main.3b38e5e8.js",
+    "static/js/787.daf0f6b4.chunk.js": "/portfolio-redux/static/js/787.daf0f6b4.chunk.js",
+    "static/media/TACOD.png": "/portfolio-redux/static/media/TACOD.fa94ffb961268cff121c.png",
+    "static/media/concert-compass.png": "/portfolio-redux/static/media/concert-compass.4d12baad38c412aaf444.png",
+    "static/media/robo-friends.png": "/portfolio-redux/static/media/robo-friends.81197a49274f26eeda74.png",
+    "static/media/profile.png": "/portfolio-redux/static/media/profile.60ee12dab43d9fafa7ef.png",
+    "static/media/movie-lookup.png": "/portfolio-redux/static/media/movie-lookup.7291ab8b64962d9cc9a8.png",
+    "static/media/dev-dive.png": "/portfolio-redux/static/media/dev-dive.5774d1782892f82931d6.png",
+    "static/media/resume.pdf": "/portfolio-redux/static/media/resume.4a81e55c2c7248e7b4bf.pdf",
+    "static/media/chore-door.png": "/portfolio-redux/static/media/chore-door.a14a5f9ba53b2c113c41.png",
+    "index.html": "/portfolio-redux/index.html",
+    "main.d81c7158.css.map": "/portfolio-redux/static/css/main.d81c7158.css.map",
+    "main.3b38e5e8.js.map": "/portfolio-redux/static/js/main.3b38e5e8.js.map",
+    "787.daf0f6b4.chunk.js.map": "/portfolio-redux/static/js/787.daf0f6b4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d81c7158.css",
-    "static/js/main.2c88ca10.js"
+    "static/js/main.3b38e5e8.js"
   ]
 }
