@@ -7,19 +7,19 @@ function About() {
     <section id="about" className="">
       <div className="container mx-auto">
         <h2 className="section-title">About me</h2>
-        <div className="flex flex-wrap">
-          <div className="w-full md:w-1/2">
+        <div className="flex flex-col items-center">
+          <div className="">
             <div>
               <img
                 alt="Profile Image"
-                className="rounded shadow-lg mb-5"
+                className="rounded shadow-lg mb-10"
                 height="auto"
                 width="300px"
                 src={profileImage}
               />
             </div>
           </div>
-          <div className="w-full md:w-1/2">
+          <div className="w-full md:w-4/5 pb-10">
             <div>
               <p className="text-left">
                 {" "}

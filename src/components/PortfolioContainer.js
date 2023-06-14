@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { Events, scrollSpy } from "react-scroll";
 import Header from "./Header";
 import About from "./About";
 // import Hero from "./Hero";
@@ -9,6 +10,18 @@ import Resume from "./Resume";
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("About");
+
+  useEffect(() => {
+    Events.scrollEvent.register("begin", (to, element) => {
+      setCurrentPage(to.charAt(0).toUpperCase() + to.slice(1));
+    });
+
+    scrollSpy.update();
+
+    return () => {
+      Events.scrollEvent.remove("begin");
+    };
+  }, []);
 
   const renderPage = () => {
     if (currentPage === "About") {
