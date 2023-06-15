@@ -15,9 +15,9 @@ function ProjectCard({
   imageSrc,
 }) {
   return (
-    <div className="w-2/3 mx-auto mb-10 shadow-xl rounded-lg overflow-hidden bg-slate-100">
-      <img className="w-full" src={imageSrc} alt="Project Image" />
-      <div className="px-6 py-4">
+    <div className="flex flex-col w-full mx-auto mb-10 shadow-xl rounded-lg overflow-hidden bg-slate-100 justify-between">
+      <img className="w-full h-80" src={imageSrc} alt="Project Image" />
+      <div className="px-6 py-4 flex-grow">
         <h3 className="font-bold text-3xl mb-2 gradient-text">{title}</h3>
         <p className=" text-base dark-blue-text">{description}</p>
       </div>
@@ -26,17 +26,18 @@ function ProjectCard({
           rel="noreferrer"
           target="_blank"
           href={liveLink}
-          className="btn gradient-text"
+          className="btn gradient-text px-4 py-2 rounded shadow border border-gray-300 hover:border-gray-900"
         >
           See Live
         </a>
+
         <a
           rel="noreferrer"
           target="_blank"
           href={sourceCodeLink}
-          className="btn  gradient-text"
+          className="btn gradient-text px-4 py-2 rounded shadow border border-gray-300 hover:border-gray-900"
         >
-          Source Code
+          GitHub
         </a>
       </div>
     </div>
@@ -49,7 +50,7 @@ function Projects() {
       <div className="container mx-auto">
         <h2 className="section-title text-3xl mb-16">Projects</h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-8 ">
           <ProjectCard
             title="Dev Dive"
             description="This project focuses on building a CMS-style blog site where developers can publish their blog posts and interact with other developers through comments. The site follows the MVC paradigm, utilizing Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication. The application allows users to sign up, log in, create blog posts, comment on posts, and perform various other actions."

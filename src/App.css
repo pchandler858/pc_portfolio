@@ -161,9 +161,9 @@ a {
   color: transparent;
 }
 
-.gradient-text:hover {
+/* .gradient-text:hover {
   transform: translate(2px);
-}
+} */
 
 h3.project-title {
   font-size: 2rem;
