@@ -21,7 +21,7 @@ function About() {
           </div>
           <div className="w-full md:w-4/5 pb-10">
             <div>
-              <p className="text-left">
+              <p className="text-left px-10">
                 {" "}
                 I'm a jack-of-all-trades kind of person, into all sorts of stuff
                 - from sports and firing up the grill, to cooking up a storm,
