@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 function Navigation({ currentPage, handlePageChange }) {
   return (
-    <nav className="flex justify-between items-center py-3 bg-transparent font-semibold">
+    <nav className="flex justify-between items-center py-3 font-semibold">
       <div className="ml-4">
         <span className="text-slate-900">PRESTON CHANDLER</span>
       </div>

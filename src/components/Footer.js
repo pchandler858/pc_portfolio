@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
-    <footer className=" pt-10 text-center">
+    <footer className=" my-4 text-center">
       <div className="">
         {/* <Link to="top" spy={true} smooth={true} offset={0} duration={1000}>
           <i className="fa fa-angle-up fa-2x" aria-hidden="true"></i>
@@ -32,7 +32,7 @@ const Footer = () => {
           </a>
         </div>
         <hr />
-        <p className="footer my-5">
+        <p className="footer my-4">
           © 2023 - {""}
           <a
             rel="noreferrer"

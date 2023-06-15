@@ -15,11 +15,11 @@ function ProjectCard({
   imageSrc,
 }) {
   return (
-    <div className="w-2/3 mx-auto mb-10 shadow-lg rounded-lg overflow-hidden">
+    <div className="w-2/3 mx-auto mb-10 shadow-xl rounded-lg overflow-hidden bg-slate-100">
       <img className="w-full" src={imageSrc} alt="Project Image" />
       <div className="px-6 py-4">
-        <h3 className="font-bold text-3xl mb-2 text-blue-500">{title}</h3>
-        <p className="text-gray-700 text-base">{description}</p>
+        <h3 className="font-bold text-3xl mb-2 gradient-text">{title}</h3>
+        <p className=" text-base dark-blue-text">{description}</p>
       </div>
       <div className="px-6 py-4 flex justify-around">
         <a
@@ -45,11 +45,9 @@ function ProjectCard({
 
 function Projects() {
   return (
-    <section id="projects" className="bg-gray-100 py-10">
+    <section id="projects" className="about py-10">
       <div className="container mx-auto">
-        <h2 className="section-title dark-blue-text text-3xl mb-16">
-          Projects
-        </h2>
+        <h2 className="section-title text-3xl mb-16">Projects</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-8">
           <ProjectCard
