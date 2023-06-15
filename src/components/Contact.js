@@ -52,12 +52,13 @@ function Contact() {
       <div className="w-full px-4">
         <h2 className="section-title mb-10">GET IN TOUCH</h2>
         <p className="pb-10 px-10 text-left ">
-          As a highly skilled and motivated web developer, I am actively seeking
-          new employment opportunities where I can utilize my expertise to
-          deliver outstanding results. I am always eager to take on new
-          challenges and to continue growing as a professional. If you are
-          looking for a talented web developer to join your team, I would be
-          honored to discuss how I can contribute to your success.
+          As a seasoned web developer, excited to leverage my skills in new and
+          challenging environments. Always on the lookout for opportunities to
+          stretch my abilities, I strive for continued professional growth. If
+          your team is on the search for a web developer with a knack for
+          delivering results, I'd be thrilled to discuss how I could contribute
+          to your ongoing success. Let's see how we can make great things happen
+          together.
         </p>
         <div className="">
           <form

@@ -23,20 +23,19 @@ function About() {
             <div>
               <p className="text-left">
                 {" "}
-                I am a well-rounded individual with a diverse range of
-                interests, including sports, smoking meats, cooking, and keeping
-                up with new technology. As a nerd at heart, I enjoy learning
-                about the latest gadgets and innovations. Despite this, I
-                maintain a light-hearted approach to life and am known for my
-                considerate and easy-going personality. I come from a close-knit
-                family and value my relationships with them greatly. Originally
-                from San Diego, I graduated from San Diego State University
-                before moving to Oregon in 2015. With over a decade of
-                experience as a mortgage loan processor, I have a solid
-                background in finance and a strong work ethic. Whether working
-                out, watching movies, or trying new foods, I approach each
-                experience with enthusiasm and a desire to make the most of
-                life.
+                I'm a jack-of-all-trades kind of person, into all sorts of stuff
+                - from sports and firing up the grill, to cooking up a storm,
+                and geeking out over the latest tech. Yep, I'm a bit of a gadget
+                freak, but I'm all about keeping things chill and having a
+                laugh. People often say I'm pretty easy-going and thoughtful.
+                I'm super tight with my family and wouldn't trade them for
+                anything. Born and raised in San Diego, I studied at San Diego
+                State University, then packed up my life and moved to Oregon in
+                2015. I've been in the mortgage loan processing game for over a
+                decade now, so I know a thing or two about finance and the value
+                of a hard day's work. But it's not all work, I love hitting the
+                gym, catching a movie, or digging into something tasty. Life's
+                for living, right?
               </p>
               {/* <span className="flex mt-8">
                 <a target="_blank" rel="noreferrer" href={resumePDF}>
