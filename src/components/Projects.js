@@ -6,6 +6,7 @@ import roboFriendsImage from "../assets/robo-friends.png";
 import choreDoorImage from "../assets/chore-door.png";
 import movieLookupImage from "../assets/movie-lookup.png";
 import devDiveImage from "../assets/dev-dive.png";
+import zestImage from "../assets/zest.png";
 
 function ProjectCard({
   title,
@@ -15,8 +16,10 @@ function ProjectCard({
   imageSrc,
 }) {
   return (
-    <div className="flex flex-col w-11/12
-     mx-auto mb-10 shadow-xl rounded-lg overflow-hidden bg-slate-100 ">
+    <div
+      className="flex flex-col w-11/12
+     mx-auto mb-10 shadow-xl rounded-lg overflow-hidden bg-slate-100 "
+    >
       <img className="w-full" src={imageSrc} alt="Project Image" />
       <div className="px-6 py-4 flex-grow">
         <h3 className="font-bold text-3xl mb-2 gradient-text">{title}</h3>
@@ -76,12 +79,20 @@ function Projects() {
             imageSrc={tacodImage}
           />
 
-          <ProjectCard
+          {/* <ProjectCard
             title="Robo Friends"
             description="A Create-react-app project that uses React Redux to manage its states and fetches APIs."
             liveLink="https://pchandler858.github.io/RoboFriends/"
             sourceCodeLink="https://github.com/pchandler858/RoboFriends"
             imageSrc={roboFriendsImage}
+          /> */}
+
+          <ProjectCard
+            title="Zest"
+            description="Zest is a React job tracker. It allows users to create an account and save jobs to their profile. Users can also update their calendar with important events, their contacts and their profile picture."
+            liveLink="https://zest-app-2266f75dda29.herokuapp.com/"
+            sourceCodeLink="https://github.com/pchandler858/zest"
+            imageSrc={zestImage}
           />
 
           <ProjectCard
