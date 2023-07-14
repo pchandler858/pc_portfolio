@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-redux/static/css/main.010f23ce.css",
-    "main.js": "/portfolio-redux/static/js/main.b550f18a.js",
+    "main.js": "/portfolio-redux/static/js/main.120bc494.js",
     "static/js/787.daf0f6b4.chunk.js": "/portfolio-redux/static/js/787.daf0f6b4.chunk.js",
     "static/media/profile.png": "/portfolio-redux/static/media/profile.60ee12dab43d9fafa7ef.png",
     "static/media/concert-compass.png": "/portfolio-redux/static/media/concert-compass.679769aaac1333e9268c.png",
@@ -9,15 +9,16 @@
     "static/media/robo-friends.png": "/portfolio-redux/static/media/robo-friends.d5ba9e7502a7ec8b3ca5.png",
     "static/media/TACOD.png": "/portfolio-redux/static/media/TACOD.a5b88fc67c4c2185eab1.png",
     "static/media/dev-dive.png": "/portfolio-redux/static/media/dev-dive.0fb54a7d8b8e6332f49f.png",
+    "static/media/zest.png": "/portfolio-redux/static/media/zest.d170684c9d84ad357e10.png",
     "static/media/resume.pdf": "/portfolio-redux/static/media/resume.4a81e55c2c7248e7b4bf.pdf",
     "static/media/chore-door.png": "/portfolio-redux/static/media/chore-door.5c981c1c4e415a2e1ac6.png",
     "index.html": "/portfolio-redux/index.html",
     "main.010f23ce.css.map": "/portfolio-redux/static/css/main.010f23ce.css.map",
-    "main.b550f18a.js.map": "/portfolio-redux/static/js/main.b550f18a.js.map",
+    "main.120bc494.js.map": "/portfolio-redux/static/js/main.120bc494.js.map",
     "787.daf0f6b4.chunk.js.map": "/portfolio-redux/static/js/787.daf0f6b4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.010f23ce.css",
-    "static/js/main.b550f18a.js"
+    "static/js/main.120bc494.js"
   ]
 }
