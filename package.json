@@ -1,8 +1,8 @@
 {
-  "name": "portfoloi-redux",
+  "name": "portfolio-redux",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pchandler858.github.io/portfolio-redux/",
+  "homepage": "https://pchandler858.github.io/pc_portfolio/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
