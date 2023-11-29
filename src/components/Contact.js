@@ -60,14 +60,19 @@ function Contact() {
           to your ongoing success. Let's see how we can make great things happen
           together.
         </p>
-        <a
+        {/* <a
           rel="noreferrer"
           target="_blank"
           href="mailto:pchandler858@gmail.com"
           className="px-4 py-2 rounded shadow border border-gray-300 hover:border-slate-400 font-bold text-2xl hover:text-slate-400"
         >
           EMAIL ME
-        </a>
+        </a> */}
+        <div className="flex justify-center mt-8">
+          <a target="_blank" rel="noreferrer" href="mailto:pchandler858@gmail.com">
+            <button className="btn btn-blue px-4 py-2">Email Me</button>
+          </a>
+        </div>
         {/* <div className="">
           <form
             id="contact-form"
