@@ -5,13 +5,13 @@ const Footer = () => {
     <footer className=" my-4 text-center">
       <div className="">
         <div className="social-links mb-4">
-          <a
+          {/* <a
             rel="noreferrer"
             href="https://twitter.com/PrestonChandler"
             target="_blank"
           >
             <i className="fa-brands fa-twitter fa-2x"></i>
-          </a>
+          </a> */}
           <a
             rel="noreferrer"
             href="https://www.linkedin.com/in/preston-chandler/"

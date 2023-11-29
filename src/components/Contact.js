@@ -1,51 +1,51 @@
 import React, { useState } from "react";
 
 function Contact() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
+  // const [formData, setFormData] = useState({
+  //   name: "",
+  //   email: "",
+  //   message: "",
+  // });
 
-  const [errors, setErrors] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
+  // const [errors, setErrors] = useState({
+  //   name: "",
+  //   email: "",
+  //   message: "",
+  // });
 
-  const [formSubmitted, setFormSubmitted] = useState(false);
+  // const [formSubmitted, setFormSubmitted] = useState(false);
 
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-    setFormSubmitted(false);
-  };
+  // const handleChange = (e) => {
+  //   setFormData({ ...formData, [e.target.name]: e.target.value });
+  //   setFormSubmitted(false);
+  // };
 
-  const handleBlur = (e) => {
-    const { name, value } = e.target;
-    let tempErrors = { ...errors };
+  // const handleBlur = (e) => {
+  //   const { name, value } = e.target;
+  //   let tempErrors = { ...errors };
 
-    if (!value) {
-      tempErrors[name] = "This field is required";
-    } else {
-      tempErrors[name] = "";
-    }
+  //   if (!value) {
+  //     tempErrors[name] = "This field is required";
+  //   } else {
+  //     tempErrors[name] = "";
+  //   }
 
-    if (name === "email" && value) {
-      const emailRegex = /^\S+@\S+\.\S+$/;
-      if (!emailRegex.test(value)) {
-        tempErrors[name] = "Please enter a valid email address";
-      }
-    }
+  //   if (name === "email" && value) {
+  //     const emailRegex = /^\S+@\S+\.\S+$/;
+  //     if (!emailRegex.test(value)) {
+  //       tempErrors[name] = "Please enter a valid email address";
+  //     }
+  //   }
 
-    setErrors(tempErrors);
-  };
+  //   setErrors(tempErrors);
+  // };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(formData);
-    setFormData({ name: "", email: "", message: "" });
-    setFormSubmitted(true);
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   console.log(formData);
+  //   setFormData({ name: "", email: "", message: "" });
+  //   setFormSubmitted(true);
+  // };
 
   return (
     <section id="contact" className="about">
@@ -60,7 +60,15 @@ function Contact() {
           to your ongoing success. Let's see how we can make great things happen
           together.
         </p>
-        <div className="">
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href="mailto:pchandler858@gmail.com"
+          className="px-4 py-2 rounded shadow border border-gray-300 hover:border-slate-400 font-bold text-2xl hover:text-slate-400"
+        >
+          EMAIL ME
+        </a>
+        {/* <div className="">
           <form
             id="contact-form"
             onSubmit={handleSubmit}
@@ -114,7 +122,7 @@ function Contact() {
               Submit
             </button>
           </form>
-        </div>
+        </div> */}
       </div>
     </section>
   );
