@@ -4,7 +4,7 @@ This project is a portfolio website created with React and Tailwind CSS. It serv
 
 ## Live Demo
 
-To view the deployed application, please click [here](https://pchandler858.github.io/portfolio-redux/).
+To view the deployed application, please click [here](https://pchandler858.github.io/pc_portfolio/).
 
 ## Installation
 
