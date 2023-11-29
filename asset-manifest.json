@@ -1,12 +1,11 @@
 {
   "files": {
     "main.css": "/pc_portfolio/static/css/main.010f23ce.css",
-    "main.js": "/pc_portfolio/static/js/main.1e2f6ac1.js",
+    "main.js": "/pc_portfolio/static/js/main.c074de50.js",
     "static/js/787.b7a5f803.chunk.js": "/pc_portfolio/static/js/787.b7a5f803.chunk.js",
     "static/media/profile.png": "/pc_portfolio/static/media/profile.60ee12dab43d9fafa7ef.png",
     "static/media/concert-compass.png": "/pc_portfolio/static/media/concert-compass.679769aaac1333e9268c.png",
     "static/media/movie-lookup.png": "/pc_portfolio/static/media/movie-lookup.2e5f814d5acba9702832.png",
-    "static/media/robo-friends.png": "/pc_portfolio/static/media/robo-friends.d5ba9e7502a7ec8b3ca5.png",
     "static/media/TACOD.png": "/pc_portfolio/static/media/TACOD.a5b88fc67c4c2185eab1.png",
     "static/media/dev-dive.png": "/pc_portfolio/static/media/dev-dive.0fb54a7d8b8e6332f49f.png",
     "static/media/zest.png": "/pc_portfolio/static/media/zest.d170684c9d84ad357e10.png",
@@ -14,11 +13,11 @@
     "static/media/chore-door.png": "/pc_portfolio/static/media/chore-door.5c981c1c4e415a2e1ac6.png",
     "index.html": "/pc_portfolio/index.html",
     "main.010f23ce.css.map": "/pc_portfolio/static/css/main.010f23ce.css.map",
-    "main.1e2f6ac1.js.map": "/pc_portfolio/static/js/main.1e2f6ac1.js.map",
+    "main.c074de50.js.map": "/pc_portfolio/static/js/main.c074de50.js.map",
     "787.b7a5f803.chunk.js.map": "/pc_portfolio/static/js/787.b7a5f803.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.010f23ce.css",
-    "static/js/main.1e2f6ac1.js"
+    "static/js/main.c074de50.js"
   ]
 }
