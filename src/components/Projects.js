@@ -2,7 +2,7 @@
 import React from "react";
 import concertCompassImage from "../assets/concert-compass.png";
 import tacodImage from "../assets/TACOD.png";
-import roboFriendsImage from "../assets/robo-friends.png";
+// import roboFriendsImage from "../assets/robo-friends.png";
 import choreDoorImage from "../assets/chore-door.png";
 import movieLookupImage from "../assets/movie-lookup.png";
 import devDiveImage from "../assets/dev-dive.png";
@@ -56,6 +56,14 @@ function Projects() {
 
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-8">
           <ProjectCard
+            title="Zest"
+            description="Zest is a React job tracker. It allows users to create an account and save jobs to their profile. Users can also update their calendar with important events, their contacts and their profile picture."
+            liveLink="https://zest-tracker-app-fee5d1e4e8d7.herokuapp.com"
+            sourceCodeLink="https://github.com/pchandler858/zest"
+            imageSrc={zestImage}
+          />
+
+          <ProjectCard
             title="Dev Dive"
             description="This project focuses on building a CMS-style blog site where developers can publish their blog posts and interact with other developers through comments. The site follows the MVC paradigm, utilizing Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication. The application allows users to sign up, log in, create blog posts, comment on posts, and perform various other actions."
             liveLink="https://devdive.herokuapp.com/"
@@ -71,13 +79,13 @@ function Projects() {
             imageSrc={concertCompassImage}
           />
 
-          <ProjectCard
+          {/* <ProjectCard
             title="TACO'D"
             description="A web application that allows users to rate and review tacos from various restaurants. It was built using a variety of technologies, including mySQL2, Sequelize, Express, Handlebars, Node.js, Tailwind CSS, and deployed on Heroku. The app offers a seamless user experience with an intuitive interface, enabling users to quickly rate and review their favorite tacos."
             liveLink="https://tacod-app.herokuapp.com/"
             sourceCodeLink="https://github.com/pchandler858/tacod"
             imageSrc={tacodImage}
-          />
+          /> */}
 
           {/* <ProjectCard
             title="Robo Friends"
@@ -86,14 +94,6 @@ function Projects() {
             sourceCodeLink="https://github.com/pchandler858/RoboFriends"
             imageSrc={roboFriendsImage}
           /> */}
-
-          <ProjectCard
-            title="Zest"
-            description="Zest is a React job tracker. It allows users to create an account and save jobs to their profile. Users can also update their calendar with important events, their contacts and their profile picture."
-            liveLink="https://zest-app-2266f75dda29.herokuapp.com/"
-            sourceCodeLink="https://github.com/pchandler858/zest"
-            imageSrc={zestImage}
-          />
 
           <ProjectCard
             title="Chore Door"
